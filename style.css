@@ -1,0 +1,180 @@
+/* hero background image */
+.bgimage {
+    height:120vh;
+    
+    background: url('images/heroImage.jpeg');
+    background-size:cover;
+    position:relative;
+    width: 100%;
+}
+/* text css above hero image*/
+.hero_title {
+    font-size: 4.5rem;
+}
+.hero_desc {
+    font-size: 2rem;
+}
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 68%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* CSS for Navbar */
+.navbar {
+    background-color:white; /* Change the background color as needed */
+  }
+  
+  .navbar-brand {
+    color:black; /* Change the color of the brand text */
+    font-size: 24px; /* Adjust font size as needed */
+    font-weight: bold; /* Adjust font weight as needed */
+  }
+  
+  .navbar-nav {
+    margin-left: auto; /* Push the nav links to the right */
+  }
+  
+  .nav-item {
+    margin-right: 15px; /* Adjust spacing between nav links */
+  }
+  
+
+  .nav-link {
+    color: black; /* Change the color of the nav links */
+    font-size: 18px; /* Adjust font size as needed */
+  }
+   /* CSS for hover effect */
+   .navbar-nav .nav-link:hover {
+    background-color: #28a745; /* Change to green when hovered */
+    color: #fff; /* Change text color to white */
+}
+
+ /* CSS for active link */
+ .navbar-nav .nav-item.active .nav-link {
+  background-color: #28a745; /* Green background color */
+  color: #fff; /* Text color */
+}
+
+
+  /* about section image css */
+.imageAboutPage {
+    width: 100%;
+}
+/* skills section css when a user hovers over a card. */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
+/* display background color black on navbar scroll */
+.navbarScroll.navbarDark {
+    background-color: black;
+}
+/* social media icons styling */
+.social-icons {
+  font-size: 36px;
+  cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover {
+  color: #008000;
+ 
+}
+.fab {
+  color: #000000;
+}
+/* footer styling */
+#footer {
+  background-color: #808080;
+  text-align: center;
+}
+
+/* spacing on all sections */
+#about, #skills,#contact {
+  margin-top: 4rem;
+  padding-top: 8rem;
+  
+}
+#portfolio{
+  margin-top:14rem;
+}
+#contact {
+  padding-bottom: 4rem;
+}
+/* contact section */
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+ /* Basic button styles */
+button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  color: #8fc866;
+}
+.slide:hover,
+.slide:focus {
+  box-shadow: inset 6.5em 0 0 0 var(--hover);
+}
+button {  
+  color: var(#8fc866);
+  transition: 0.25s;
+  
+  &:hover
+  { 
+    border-color: var(#067d49);
+    color: #047067;
+  }
+}
+
+div {
+  text-align: justify;
+}
+#footer {
+  display: flex;
+  justify-content: center; /* Horizontally centers the content */
+  align-items: center; /* Vertically centers the content */
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center; /* Centers the icons horizontally */
+  
+}
+.social-icons i {
+  font-size: 20px; /* Adjust the font size to make the icons smaller */
+  margin: 0 20px; /* Adjust the margin to add space around each icon */
+}
+/* Optional: Adjust margin or padding as needed */
+.container-fluid {
+  padding: 10px; /* Example padding */
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-nav .nav-link {
+      padding: 10px 0;
+      color: white;
+    }
+  }
